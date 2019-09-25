@@ -1,0 +1,51 @@
+// Custom styles.
+.main-inner { 
+    margin-top: 60px;
+    padding: 60px 60px 60px 60px;
+    background: #fff;
+    opacity: 0.8;
+    min-height: 500px;
+}
+body {
+  background: url(/images/bearbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.header-inner {
+  opacity: 0.8;
+}
+// 删除评论自带的info
+.info{
+  display: none
+}
+// 手机端 内容区域宽度设置，底部信息隐藏
+@media screen and (max-width: 600px) {
+  .main-inner { 
+   width: 80%;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 12px;
+ }
+  .my_post_copyright{
+   display: none   
+ }
+
+}
+//文章摘要配图 
+ .out-img-topic { 
+   display: block; 
+   max-height:500px; 
+   margin-bottom: 24px; 
+   overflow: hidden; 
+   } 
+//图片 
+img.img-topic { 
+  display: block ; 
+  margin-left: .7em; 
+  margin-right: .7em; 
+  padding: 0; 
+  clear: right; 
+  }
+
